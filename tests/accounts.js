@@ -3,7 +3,7 @@ const fs = require("fs")
 const path = require("path")
 module.exports = {
 
-     unlockAccount : (web3, web3account, password) => {
+     decryptPrivateKey : (web3, account, password) => {
         return new Promise((resolve, reject) => {
             let path = __dirname + "/Accounts/" + account
             fs.readFile(path, (err, data) => {
@@ -56,6 +56,12 @@ module.exports = {
                 resolve(encryptedAccount)
             })
         })
+    },
+
+
+    sign: (web3, data, key) => {
+        web3.eth.accounts.sign(data, key)
+        .then(console.log)
     }
 
 }

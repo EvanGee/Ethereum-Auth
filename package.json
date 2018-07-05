@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/EvanGee/Ethereum-Auth#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "jsonwebtoken": "^8.3.0"
   },
   "devDependencies": {

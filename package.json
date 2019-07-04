@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "This is an authentication library for verifying an identity using ethereum public and private keys. I'm designing it to be simple to use. It uses JSON web tokens and web3 (the ethereum JSON rpc wrapper).",
   "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EvanGee/Ethereum-Auth.git"
@@ -16,11 +13,7 @@
     "url": "https://github.com/EvanGee/Ethereum-Auth/issues"
   },
   "homepage": "https://github.com/EvanGee/Ethereum-Auth#readme",
-  "dependencies": {
-    "axios": "^0.18.0",
-    "jsonwebtoken": "^8.3.0"
-  },
   "devDependencies": {
-    "web3": "^1.0.0-beta.34"
+    "web3": "1.0.0-beta.34"
   }
 }

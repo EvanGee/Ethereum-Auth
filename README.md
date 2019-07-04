@@ -5,7 +5,7 @@ IT IS SUPER SIMPLE!
 
 Pass in a web3 instance, this could be meta mask or nodejs, or whatever. Keep in mind,
 when not using https passwords sent are unencrypted, so use keys that are local.
-like a ethereum  
+like an ethereum client like geth. or CryptoWorldApi (my wallet).  
 
 Get your web3 instance
 

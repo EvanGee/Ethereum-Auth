@@ -9,8 +9,8 @@ like an ethereum client like geth. or CryptoWorldApi (my wallet).
 
 Get your web3 instance
 
-Make sure that the web3 default account is set, otherwise it won't work
-
+Make sure that the web3 default account is set for auth.sign, otherwise it won't work.
+You don't need a default account for auth.validate, just pass in address.
 ```js
 const Web3 = require("web3")
 const web3 = new Web3("http://127.0.0.1:8555")
